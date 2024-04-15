@@ -1,3 +1,3 @@
-INSERT INTO task ( description, completed) VALUES
-  ( 'description1', 'completed'),
-  ('description2', 'completed');
+INSERT INTO Restaurants ( id, name, rating, isKosher) VALUES
+  ( 1, 'Taizu', 4.83,  B'1')
+  ON CONFLICT (id) DO NOTHING;
